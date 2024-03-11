@@ -1,0 +1,73 @@
+body {
+    background-color: hsl(32, 8%, 65%);
+    /* background-color: hsl(30, 38%, 92%); */
+}
+
+section {
+    width: 500px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    color : hsl(228, 12%, 48%);
+}
+
+section>div.photo {
+
+    flex: 1;
+    
+}
+
+section>div.photo>img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+section>div.perfum {
+    flex: 1;
+    /* margin: 24px; */
+   
+}
+
+section>div.perfum>div {
+    display: flex;
+    align-items: center;
+    padding-inline: 24px;
+}
+
+section>div.perfum>div>h1 {
+    margin: 0;
+    margin-inline-end: 24px;
+    color:hsl(158, 36%, 37%) ;
+}
+
+section>div.perfum>a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    padding: 16px;
+    display: block;
+    border-radius: 12px;
+    text-align: center;
+  margin: 24px;
+}
+
+section>div.perfum>h4 {
+    margin: 24px;
+    font-size: 12px;
+    letter-spacing:5px;
+
+}
+section>div.perfum>h1{
+    margin: 24px;
+    padding-right: 45px;
+    color: hsl(212, 21%, 14%);
+}
+section>div.perfum>p{
+    margin-inline: 24px;
+}
